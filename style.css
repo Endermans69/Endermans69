@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(211, 0, 176, 0.431);
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: brown;
+  font-size: 80px;
+  /*echivalent cu <em> din HTML*/
+  font-style: italic;
+  /*echivalent cu <strong> din HTML */
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline
+  text-decoration: red;}
+
+
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  padding: 1-px;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 10px;
+}
